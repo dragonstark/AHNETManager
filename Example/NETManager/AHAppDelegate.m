@@ -7,12 +7,20 @@
 //
 
 #import "AHAppDelegate.h"
+#import "SystemSet.h"
 
 @implementation AHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    
+    //  网络初始化
+    
+    [SystemSet defaultSet].HOST = @"http://182.92.203.58:8010/";
+    [SystemSet defaultSet].SUFFIX = @".ashx";
+    [SystemSet defaultSet].SucStatus = @"200";
+    
     return YES;
 }
 

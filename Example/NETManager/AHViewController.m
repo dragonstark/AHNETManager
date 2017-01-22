@@ -22,9 +22,9 @@
 {
     [super viewDidLoad];
     //  网络请求前的一些设置  只设置一遍即可 一般在appdelegate中设置
-    [SystemSet defaultSet].HOST = @"http://182.92.203.58:8010/";
-    [SystemSet defaultSet].SUFFIX = @".ashx";
-    [SystemSet defaultSet].SucStatus = @"200";
+//    [SystemSet defaultSet].HOST = @"http://182.92.203.58:8010/";
+//    [SystemSet defaultSet].SUFFIX = @".ashx";
+//    [SystemSet defaultSet].SucStatus = @"200";
 
 }
 
