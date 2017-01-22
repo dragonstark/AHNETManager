@@ -3,14 +3,14 @@ AhNetmanager基于AFN封装的网络处理层
 ## 目录
 * [什么是cocoapods](#what_cocoa)
 * [cocoapods共公库制作](#make_coca)
-* [AhNetManager介绍](*intro_ahnet)
-	* [为什么做AhNetManager](*dowhat_ahnet)
-	* [AhNetManager安装](*install_ahnet) 
-* [AhNetmanager操作示例](*examples_ahnet)
-	* [配置初始化](*set_ahnet)
-	* [post示例](*post_ahnet)
-	* [上传图片示例](*postimg_ahnet)  
-* [待开发功能](*undo_ahnet)
+* [AhNetManager介绍](#intro_ahnet)
+	* [为什么做AhNetManager](#dowhat_ahnet)
+	* [AhNetManager安装](#install_ahnet) 
+* [AhNetmanager操作示例](#examples_ahnet)
+	* [配置初始化](#set_ahnet)
+	* [post示例](#post_ahnet)
+	* [上传图片示例](#postimg_ahnet)  
+* [待开发功能](#undo_ahnet)
 	
 	
 ---
